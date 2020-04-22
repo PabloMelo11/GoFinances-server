@@ -12,6 +12,7 @@ export default class AddCategoryFieldToTransactions1587522330132
             type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
+            default: 'uuid_generate_v4()',
           },
           {
             name: 'title',
